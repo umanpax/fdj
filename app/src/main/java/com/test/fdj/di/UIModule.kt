@@ -4,7 +4,7 @@ import com.test.fdj.service.ServiceGenerator
 import com.test.fdj.service.repository.Repository
 import com.test.fdj.ui.fragments.league.LeagueViewModel
 import com.test.fdj.ui.fragments.team.TeamViewModel
-import com.titre.services.ws.DataManager
+import com.test.fdj.service.ws.DataManager
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

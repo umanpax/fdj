@@ -10,26 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642e0f9c-2aa4-4fec-b7f8-0975321e4faa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/di/UIModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/AuthenticationInterceptor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/ServiceGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/interfaces/IService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/repository/Repository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/ws/DataManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/usecase/ResultState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_league.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_team.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/model/League.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/model/Leagues.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/model/Team.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/model/Teams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/activities/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/activities/base/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/activities/base/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/activities/base/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/league/LeagueFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/league/LeagueFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/league/LeagueViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/league/LeagueViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/team/TeamFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/team/TeamFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/team/TeamViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/ui/fragments/team/TeamViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/utils/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/utils/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/di/UIModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/di/UIModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/interfaces/IService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/interfaces/IService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/repository/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/repository/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/ws/DataManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/service/ws/DataManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/fdj/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +104,7 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.test.fdj.model" />
       <recent name="com.test.fdj.service" />
       <recent name="com.test.fdj.usecase" />
       <recent name="com.test.fdj.ui.fragments.league" />

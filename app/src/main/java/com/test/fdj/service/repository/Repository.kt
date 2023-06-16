@@ -1,10 +1,9 @@
 package com.test.fdj.service.repository
 
-import android.os.Build
-import android.view.View
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.MutableLiveData
-import com.titre.services.ws.DataManager
+import com.test.fdj.model.Leagues
+import com.test.fdj.model.Teams
+import com.test.fdj.service.ws.DataManager
 import io.reactivex.Observer
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
@@ -14,15 +13,15 @@ class Repository(private val dataManager: DataManager) {
 
     val liveData = MutableLiveData<Any>()
 
-    fun login(loginpwd: String, place: String) {
-        dataManager.login(loginpwd, place)
+    fun getAllLeagues() {
+        dataManager.getAllLeagues()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(object : Observer<Token> {
+            .subscribe(object : Observer<Leagues> {
                 override fun onSubscribe(d: Disposable) {
                 }
 
-                override fun onNext(response: Token) {
+                override fun onNext(response: Leagues) {
                     liveData.postValue(response)
                 }
 
@@ -33,7 +32,30 @@ class Repository(private val dataManager: DataManager) {
                 override fun onComplete() {
 
                 }
-                
+
+            })
+    }
+
+    fun getAllTeams(lang: String) {
+        dataManager.getAllTeams(lang)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(object : Observer<Teams> {
+                override fun onSubscribe(d: Disposable) {
+                }
+
+                override fun onNext(response: Teams) {
+                    liveData.postValue(response)
+                }
+
+                override fun onError(e: Throwable) {
+                    liveData.postValue(e.message.toString())
+                }
+
+                override fun onComplete() {
+
+                }
+
             })
     }
 }
