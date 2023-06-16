@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
         <variable
             name="viewModel"
-            type="com.deeptime.drop.ui.activities.basegroup.BaseGroupViewModel" />
+            type="com.test.fdj.ui.activities.base.BaseViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint_base"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorBlack21">
+        android:background="@color/black">
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/imv_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dimen_20"
-            android:layout_marginTop="@dimen/dimen_24"
-            android:background="@drawable/ic_back"
-            android:clickable="true"
-            android:focusable="true"
-            android:onClick="@{() -> viewModel.back()}"
-            android:visibility="gone"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="ContentDescription" />
+
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen_0"
-            android:layout_marginTop="@dimen/dimen_0"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
