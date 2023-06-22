@@ -11,15 +11,15 @@ interface IService {
      * Get All Leagues
      * @return
      */
-    @GET("api/v1/json/50130162/all_leagues")
+    @GET("api/v1/json/50130162/all_leagues.php")
     fun getAllLeagues(): Observable<Leagues>
 
     /**
      * Get All Teams
      * @return
      */
-    @GET("api/v1/json/50130162/search_all_teams")
-    fun getAllTeams(@Query("l") lang: String): Observable<Teams>
+    @GET("api/v1/json/50130162/search_all_teams.php")
+    fun getAllTeams(@Query("l") league: String): Observable<Teams>
 
 }
 

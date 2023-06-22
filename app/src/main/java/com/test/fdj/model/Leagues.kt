@@ -1,8 +1,12 @@
 package com.test.fdj.model
 
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 data class Leagues(
+    @SerializedName("leagues")
+    @Expose
     val data: Array<League>,
 ) : Serializable {
     override fun equals(other: Any?): Boolean {
