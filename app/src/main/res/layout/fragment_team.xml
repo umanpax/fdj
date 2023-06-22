@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.test.fdj.ui.fragments.team.TeamViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="@dimen/dimen_24"
+            android:layout_height="@dimen/dimen_16"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="@{() -> viewModel.back()}"
+            android:background="@drawable/ic_back"
+            android:layout_marginTop="@dimen/dimen_6"
+            android:layout_marginStart="@dimen/dimen_12"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/team"
+            android:layout_marginTop="@dimen/dimen_30"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:inputType="text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="Autofill" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/dimen_16"
+            android:background="@android:color/transparent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dimen_24"
+            android:paddingBottom="@dimen/dimen_120"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="true"
+            app:layout_constraintTop_toBottomOf="@+id/searchEditText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

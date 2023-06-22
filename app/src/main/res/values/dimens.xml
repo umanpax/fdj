@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="editTextFieldSize">14sp</dimen>
+    <dimen name="textViewFieldSize">14sp</dimen>
+    <dimen name="textViewFieldHeight">40dp</dimen>
+    <dimen name="editTextFieldWidth">40dp</dimen>
+    <dimen name="editTextFieldHeight">40dp</dimen>
+    <dimen name="buttonHeight">50dp</dimen>
+    <dimen name="buttonTextSize">16sp</dimen>
+    <dimen name="buttonChoiceTextSize">15sp</dimen>
+
+    <!-- Item color labels -->
+    <dimen name="item_color_labels_radius">10dp</dimen>
+    <dimen name="item_color_labels_margin">5dp</dimen>
+    <dimen name="item_color_labels_padding">5dp</dimen>
+
+    <dimen name="font_size_8">8sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_42">42sp</dimen>
+    <dimen name="font_size_44">44sp</dimen>
+    <dimen name="font_size_46">46sp</dimen>
+    <dimen name="font_size_50">50sp</dimen>
+    <dimen name="font_size_54">54sp</dimen>
+    <dimen name="font_size_58">58sp</dimen>
+
+    <dimen name="dimen_0">0dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_14">14dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_22">22dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_26">26dp</dimen>
+    <dimen name="dimen_28">28dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_36">36dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_42">42dp</dimen>
+    <dimen name="dimen_44">44dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_52">52dp</dimen>
+    <dimen name="dimen_56">56dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_68">68dp</dimen>
+    <dimen name="dimen_72">72dp</dimen>
+    <dimen name="dimen_76">76dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_82">82dp</dimen>
+    <dimen name="dimen_84">84dp</dimen>
+    <dimen name="dimen_86">86dp</dimen>
+    <dimen name="dimen_88">88dp</dimen>
+    <dimen name="dimen_90">90dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="dimen_220">220dp</dimen>
+    <dimen name="dimen_235">235dp</dimen>
+    <dimen name="dimen_270">270dp</dimen>
+    <dimen name="dimen_350">350dp</dimen>
+    <dimen name="dimen_380">380dp</dimen>
+    <dimen name="dimen_280">280dp</dimen>
+    <dimen name="dimen_600">600dp</dimen>
+    <dimen name="crop_rect_stroke_width">2dp</dimen>
+
+</resources>

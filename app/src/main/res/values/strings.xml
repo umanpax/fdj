@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">fdj</string>
+    <string name="app_name">FDJ</string>
+    <string name="league">League</string>
+    <string name="team">Team</string>
 </resources>
